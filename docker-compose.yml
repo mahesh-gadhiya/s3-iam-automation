@@ -1,0 +1,8 @@
+services:
+  s3_iam_automation:
+    build: .
+    container_name: s3-iam-automation
+    env_file:
+      - .env
+    volumes:
+      - ./credentials:/app/credentials
