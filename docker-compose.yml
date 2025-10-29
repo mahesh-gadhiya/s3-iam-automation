@@ -6,3 +6,4 @@ services:
       - .env
     volumes:
       - ./credentials:/app/credentials
+    platform: linux/amd64
